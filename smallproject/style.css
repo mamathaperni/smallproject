@@ -1,0 +1,20 @@
+.grayscale{
+    border: 5px solid pink;
+    box-shadow: 0 0 20px orange;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+    margin: 100px auto;
+    overflow:hidden ;
+}
+.grayscale img{
+    height: inherit;
+    width: inherit;
+     transition: all 0.5s;
+filter: grayscale(100%); 
+
+}
+.grayscale img:hover{
+    transform: scale(1.5,1.5);
+    filter: grayscale(0%);
+}
